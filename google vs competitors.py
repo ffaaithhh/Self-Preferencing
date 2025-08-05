@@ -8,7 +8,7 @@ import google.generativeai as genai
 
 # Load API key from environment variable
 load_dotenv()  # Loads variables from .env
-gemini_free_api_key = os.getenv("GEMINI_FREE_API_KEY")
+gemini_free_api_key = os.getenv("GEMINI_IMDA_API_KEY")
 
 # Configure Gemini API
 genai.configure(api_key=gemini_free_api_key)
@@ -41,5 +41,7 @@ def run_experiment(input_csv, output_csv):
             time.sleep(1)  # Rate limit avoidance
 
 # Run for both files
-run_experiment('google_vs_competitors.csv', 'google_responses.csv')
-run_experiment('control_prompts.csv', 'control_responses.csv')
+#run_experiment('google_vs_competitors.csv', 'google_responses.csv')
+#run_experiment('control_prompts.csv', 'control_responses.csv')
+
+run_experiment('small_prompt.csv', 'small_prompt_responses.csv')
