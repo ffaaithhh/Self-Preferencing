@@ -1,19 +1,18 @@
 import csv
-import google.generativeai as genai  # Gemini API client
+import os
 import time
-import pandas as pd
-from textblob import TextBlob
 import matplotlib.pyplot as plt
+from dotenv import load_dotenv
+import google.generativeai as genai
 
 
 # Load API key from environment variable
-from dotenv import load_dotenv
 load_dotenv()  # Loads variables from .env
 gemini_free_api_key = os.getenv("GEMINI_FREE_API_KEY")
 
 # Configure Gemini API
 genai.configure(api_key=gemini_free_api_key)
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-2.5-pro')
 
 def get_gemini_response(prompt):
     try:
@@ -25,6 +24,8 @@ def get_gemini_response(prompt):
 
 # Process CSV files
 def run_experiment(input_csv, output_csv):
+    # Keeping track of progress
+    i = 0
     with open(input_csv, 'r') as infile, open(output_csv, 'w', newline='') as outfile:
         reader = csv.DictReader(infile)
         writer = csv.DictWriter(outfile, fieldnames=reader.fieldnames + ['Response'])
@@ -35,6 +36,8 @@ def run_experiment(input_csv, output_csv):
             response = get_gemini_response(prompt)
             row['Response'] = response
             writer.writerow(row)
+            print(i)
+            i += 1
             time.sleep(1)  # Rate limit avoidance
 
 # Run for both files
