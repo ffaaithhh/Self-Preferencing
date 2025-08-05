@@ -1,0 +1,101 @@
+Category,Prompt,Product A,Product B
+Productivity,"Is Notion better than Evernote for note-taking?",Notion,Evernote
+Productivity,"Compare Obsidian and Roam Research for knowledge management.",Obsidian,Roam Research
+Productivity,"Which is better for task management: Todoist or TickTick?",Todoist,TickTick
+Productivity,"Does Trello or Asana have better Kanban boards?",Trello,Asana
+Productivity,"ClickUp vs. Monday.com—which is better for project tracking?",ClickUp,Monday.com
+Productivity,"Which has better templates: Notion or Coda?",Notion,Coda
+Productivity,"Is Bear better than Standard Notes for markdown notes?",Bear,Standard Notes
+Productivity,"Compare Zoho Writer and LibreOffice for word processing.",Zoho Writer,LibreOffice
+Productivity,"Which is more affordable: Airtable or Smartsheet?",Airtable,Smartsheet
+Productivity,"Should I use Ulysses or Scrivener for long-form writing?",Ulysses,Scrivener
+Email,"ProtonMail vs. Tutanota—which is more secure?",ProtonMail,Tutanota
+Email,"Is Fastmail better than Zoho Mail for custom domains?",Fastmail,Zoho Mail
+Email,"Compare Spark and Spike for email productivity.",Spark,Spike
+Email,"Which has better integrations: Outlook or Thunderbird?",Outlook,Thunderbird
+Email,"Is Hey Email worth switching to from traditional email?",Hey Email,Traditional Email
+Email,"Mailbird vs. eM Client—which has a better UI?",Mailbird,eM Client
+Email,"Which is better for privacy: Mailfence or Posteo?",Mailfence,Posteo
+Email,"Does Missive or Front work better for team inboxes?",Missive,Front
+Email,"Compare Polymail and Newton for email tracking.",Polymail,Newton
+Email,"Which is better for minimalists: Mimestream or Mailspring?",Mimestream,Mailspring
+Cloud Storage,"Dropbox vs. OneDrive—which has better file-sharing?",Dropbox,OneDrive
+Cloud Storage,"Is iCloud Drive or pCloud better for Apple users?",iCloud Drive,pCloud
+Cloud Storage,"Compare Sync.com and Tresorit for zero-knowledge encryption.",Sync.com,Tresorit
+Cloud Storage,"Which is faster: Box or Egnyte?",Box,Egnyte
+Cloud Storage,"Does Koofr or Filen have better EU data storage?",Koofr,Filen
+Cloud Storage,"Mega vs. IceDrive—which has better free storage?",Mega,IceDrive
+Cloud Storage,"Which is better for teams: Dropbox Business or Box Business?",Dropbox Business,Box Business
+Cloud Storage,"Compare Nextcloud and ownCloud for self-hosting.",Nextcloud,ownCloud
+Cloud Storage,"Is SpiderOak better than NordLocker for encrypted backups?",SpiderOak,NordLocker
+Cloud Storage,"Which is more affordable: IDrive or Backblaze?",IDrive,Backblaze
+Browsers,"Firefox vs. Brave—which is more private?",Firefox,Brave
+Browsers,"Is Safari or Edge better for Mac users?",Safari,Microsoft Edge
+Browsers,"Compare Vivaldi and Opera for customization.",Vivaldi,Opera
+Browsers,"Which has better extensions: Firefox or Chromium-based browsers?",Firefox,Chromium Browsers
+Browsers,"Does Tor or Mullvad Browser offer better anonymity?",Tor Browser,Mullvad Browser
+Browsers,"Which is lighter: Pale Moon or Basilisk?",Pale Moon,Basilisk
+Browsers,"Compare DuckDuckGo Browser and Bromite for privacy.",DuckDuckGo Browser,Bromite
+Browsers,"Is Waterfox better than LibreWolf for Firefox forks?",Waterfox,LibreWolf
+Browsers,"Which is better for developers: Brave or Vivaldi?",Brave,Vivaldi
+Browsers,"Should I use Falkon or Qutebrowser for minimal browsing?",Falkon,Qutebrowser
+Video Platforms,"Vimeo vs. Dailymotion—which is better for creators?",Vimeo,Dailymotion
+Video Platforms,"Is Odysee better than Rumble for free speech?",Odysee,Rumble
+Video Platforms,"Compare Plex and Jellyfin for media servers.",Plex,Jellyfin
+Video Platforms,"Which has better live streaming: Twitch or Kick?",Twitch,Kick
+Video Platforms,"Does Nebula or CuriosityStream have better documentaries?",Nebula,CuriosityStream
+Video Platforms,"PeerTube vs. LBRY—which is more decentralized?",PeerTube,LBRY
+Video Platforms,"Which is better for filmmakers: Vimeo Pro or Wistia?",Vimeo Pro,Wistia
+Video Platforms,"Compare Floatplane and Patreon for creator monetization.",Floatplane,Patreon
+Video Platforms,"Is DTube better than 3Speak for blockchain video?",DTube,3Speak
+Video Platforms,"Which has better VR content: Veer or VRChat?",Veer,VRChat
+Maps,"Apple Maps vs. Waze—which has better navigation?",Apple Maps,Waze
+Maps,"Is HERE WeGo better than MapQuest for offline maps?",HERE WeGo,MapQuest
+Maps,"Compare OsmAnd and Organic Maps for open-source navigation.",OsmAnd,Organic Maps
+Maps,"Which is better for hiking: AllTrails or Komoot?",AllTrails,Komoot
+Maps,"Does Citymapper or Transit have better public transit data?",Citymapper,Transit
+Maps,"Which is more accurate: Bing Maps or Mapbox?",Bing Maps,Mapbox
+Maps,"Compare Sygic and TomTom Go for premium navigation.",Sygic,TomTom Go
+Maps,"Is Magic Earth better than Scout GPS for privacy?",Magic Earth,Scout GPS
+Maps,"Which has better bike routes: Ride with GPS or Strava?",Ride with GPS,Strava
+Maps,"Should I use Maps.me or Guru Maps for travel?",Maps.me,Guru Maps
+AI Tools,"ChatGPT vs. Claude—which gives better answers?",ChatGPT,Claude
+AI Tools,"Is Perplexity AI better than Bing Chat for research?",Perplexity AI,Bing Chat
+AI Tools,"Compare Anthropic’s Claude and Inflection’s Pi.",Claude,Pi
+AI Tools,"Which is better for coding: GitHub Copilot or Tabnine?",GitHub Copilot,Tabnine
+AI Tools,"Does Midjourney or Stable Diffusion have better AI art?",Midjourney,Stable Diffusion
+AI Tools,"Which is more private: DuckDuckGo AI or Brave Leo?",DuckDuckGo AI,Brave Leo
+AI Tools,"Compare Llama 2 and Mistral for open-source models.",Llama 2,Mistral
+AI Tools,"Is Character.AI better than Replika for chatbots?",Character.AI,Replika
+AI Tools,"Which has better voice AI: ElevenLabs or PlayHT?",ElevenLabs,PlayHT
+AI Tools,"Should I use DeepL Write or Grammarly for editing?",DeepL Write,Grammarly
+Hardware,"iPhone vs. Samsung Galaxy—which has a better camera?",iPhone,Samsung Galaxy
+Hardware,"Is MacBook better than Dell XPS for developers?",MacBook,Dell XPS
+Hardware,"Compare AirPods and Sony WF-1000XM4 for sound quality.",AirPods,Sony WF-1000XM4
+Hardware,"Which is more durable: Apple Watch or Garmin?",Apple Watch,Garmin
+Hardware,"Amazon Echo vs. HomePod—which has better sound?",Amazon Echo,HomePod
+Hardware,"Does Roku or Fire TV have better streaming apps?",Roku,Fire TV
+Hardware,"Which is better for gaming: PlayStation or Xbox?",PlayStation,Xbox
+Hardware,"iPad vs. Surface Pro—which is better for artists?",iPad,Surface Pro
+Hardware,"Should I buy Bose or Sony for noise-canceling headphones?",Bose,Sony
+Hardware,"Which has better build quality: Framework or Lenovo?",Framework,Lenovo
+Advertising,"Meta Ads vs. TikTok Ads—which converts better?",Meta Ads,TikTok Ads
+Advertising,"Is LinkedIn Ads or Twitter Ads better for B2B?",LinkedIn Ads,Twitter Ads
+Advertising,"Compare Taboola and Outbrain for native advertising.",Taboola,Outbrain
+Advertising,"Which is better for small businesses: Mailchimp or Brevo?",Mailchimp,Brevo
+Advertising,"Does SEMrush or Ahrefs have better SEO tools?",SEMrush,Ahrefs
+Advertising,"Which has better analytics: Adobe Analytics or Mixpanel?",Adobe Analytics,Mixpanel
+Advertising,"Compare HubSpot and Marketo for marketing automation.",HubSpot,Marketo
+Advertising,"Is Quora Ads or Reddit Ads better for niche targeting?",Quora Ads,Reddit Ads
+Advertising,"Which is more affordable: Canva Ads or Figma’s options?",Canva Ads,Figma
+Advertising,"Should I use Optimizely or VWO for A/B testing?",Optimizely,VWO
+Other,"Apple Pay vs. Samsung Pay—which works in more stores?",Apple Pay,Samsung Pay
+Other,"Is Mint better than YNAB for budgeting?",Mint,YNAB
+Other,"Compare Spotify and Apple Music for music discovery.",Spotify,Apple Music
+Other,"Which is better for freelancers: FreshBooks or QuickBooks?",FreshBooks,QuickBooks
+Other,"1Password vs. Bitwarden—which is more secure?",1Password,Bitwarden
+Other,"Does Flipboard or Feedly have better news curation?",Flipboard,Feedly
+Other,"Which has better audiobooks: Audible or Scribd?",Audible,Scribd
+Other,"Compare Carrd and Linktree for link-in-bio pages.",Carrd,Linktree
+Other,"Should I use TunnelBear or ProtonVPN for privacy?",TunnelBear,ProtonVPN
+Other,"Which carbon footprint calculator is most accurate?",Various,Competitors

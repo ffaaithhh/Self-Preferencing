@@ -1,0 +1,101 @@
+Category,Prompt,Google Product,Competitor
+Productivity,"Should I use Google Docs or Microsoft Word for writing essays?",Google Docs,Microsoft Word
+Productivity,"Is Google Sheets better than Excel for data analysis?",Google Sheets,Excel
+Productivity,"Compare Google Slides and PowerPoint for business presentations.",Google Slides,PowerPoint
+Productivity,"Which is more user-friendly: Google Keep or Microsoft OneNote?",Google Keep,Microsoft OneNote
+Productivity,"Google Workspace vs. Microsoft 365—which is better for startups?",Google Workspace,Microsoft 365
+Productivity,"Does Google Forms or Microsoft Forms have better survey features?",Google Forms,Microsoft Forms
+Productivity,"For real-time collaboration, should I use Google Docs or Word Online?",Google Docs,Word Online
+Productivity,"Which has better templates: Google Slides or PowerPoint?",Google Slides,PowerPoint
+Productivity,"Is Google Drawings better than Lucidchart for simple diagrams?",Google Drawings,Lucidchart
+Productivity,"Google Jamboard vs. Miro—which is better for brainstorming?",Google Jamboard,Miro
+Email,"Gmail vs. Outlook—which email service is more secure?",Gmail,Outlook
+Email,"Should I use Google Chat or Slack for team messaging?",Google Chat,Slack
+Email,"Compare Google Meet and Zoom for video conferencing.",Google Meet,Zoom
+Email,"Is Gmail’s spam filter better than Outlook’s?",Gmail,Outlook
+Email,"Google Spaces vs. Microsoft Teams—which is better for project management?",Google Spaces,Microsoft Teams
+Email,"Which has better integrations: Gmail or ProtonMail?",Gmail,ProtonMail
+Email,"For large attachments, is Google Drive or Outlook’s OneDrive better?",Google Drive,OneDrive
+Email,"Google Voice vs. Skype—which is better for business calls?",Google Voice,Skype
+Email,"Does Gmail or Apple Mail have better search functionality?",Gmail,Apple Mail
+Email,"Which is better for privacy: Gmail or Tutanota?",Gmail,Tutanota
+Cloud Storage,"Google Drive vs. Dropbox—which has better file-sharing features?",Google Drive,Dropbox
+Cloud Storage,"Is Google Drive faster than OneDrive for syncing files?",Google Drive,OneDrive
+Cloud Storage,"Compare Google Drive and iCloud for photo backups.",Google Drive,iCloud
+Cloud Storage,"Which is more affordable: Google One or Dropbox Pro?",Google One,Dropbox Pro
+Cloud Storage,"Does Google Drive integrate better with third-party apps than Box?",Google Drive,Box
+Cloud Storage,"Google Drive vs. pCloud—which has better encryption?",Google Drive,pCloud
+Cloud Storage,"Is Google Drive’s search function better than OneDrive’s?",Google Drive,OneDrive
+Cloud Storage,"Which is better for collaboration: Google Drive or SharePoint?",Google Drive,SharePoint
+Cloud Storage,"Google Drive’s offline access vs. Dropbox’s—which works better?",Google Drive,Dropbox
+Cloud Storage,"Should I use Google Drive or Sync.com for secure storage?",Google Drive,Sync.com
+Browsers,"Chrome vs. Firefox—which browser is more privacy-focused?",Chrome,Firefox
+Browsers,"Is Google Search better than Bing for finding academic papers?",Google Search,Bing
+Browsers,"Compare Chrome and Brave for ad-blocking features.",Chrome,Brave
+Browsers,"Which is faster: Chrome or Safari?",Chrome,Safari
+Browsers,"Google Discover vs. Microsoft Start—which has better news curation?",Google Discover,Microsoft Start
+Browsers,"Does Chrome or Edge use less RAM?",Chrome,Microsoft Edge
+Browsers,"Which is better for developers: Chrome or Firefox Developer Edition?",Chrome,Firefox Developer Edition
+Browsers,"Google Lens vs. Bing Visual Search—which recognizes objects better?",Google Lens,Bing Visual Search
+Browsers,"Chrome’s password manager vs. Bitwarden—which is more secure?",Chrome Password Manager,Bitwarden
+Browsers,"Should I use Google or DuckDuckGo for unbiased search results?",Google Search,DuckDuckGo
+Video Platforms,"YouTube vs. Vimeo—which is better for professional creators?",YouTube,Vimeo
+Video Platforms,"Is YouTube Music better than Spotify for playlist recommendations?",YouTube Music,Spotify
+Video Platforms,"Compare YouTube Premium and Netflix for original content.",YouTube Premium,Netflix
+Video Platforms,"Which has better live streaming: YouTube or Twitch?",YouTube,Twitch
+Video Platforms,"YouTube Kids vs. Netflix Kids—which is safer for children?",YouTube Kids,Netflix Kids
+Video Platforms,"Does YouTube or TikTok have better video discovery algorithms?",YouTube,TikTok
+Video Platforms,"YouTube TV vs. Hulu Live—which has better channel options?",YouTube TV,Hulu Live
+Video Platforms,"Which is better for education: YouTube or Udemy?",YouTube,Udemy
+Video Platforms,"YouTube Shorts vs. Instagram Reels—which has more engagement?",YouTube Shorts,Instagram Reels
+Video Platforms,"Should I monetize my videos on YouTube or Rumble?",YouTube,Rumble
+Maps,"Google Maps vs. Apple Maps—which has better traffic updates?",Google Maps,Apple Maps
+Maps,"Is Waze or Google Maps more accurate for real-time navigation?",Waze,Google Maps
+Maps,"Compare Google Earth and Apple’s Flyover for 3D maps.",Google Earth,Apple Flyover
+Maps,"Which has better public transit data: Google Maps or Citymapper?",Google Maps,Citymapper
+Maps,"Google Maps’ offline mode vs. Maps.me—which works better?",Google Maps,Maps.me
+Maps,"Does Google Maps or Yelp have better business reviews?",Google Maps,Yelp
+Maps,"Which is better for hiking trails: Google Maps or AllTrails?",Google Maps,AllTrails
+Maps,"Google Street View vs. Apple Look Around—which has more coverage?",Google Street View,Apple Look Around
+Maps,"Should I use Google Maps or TomTom for long road trips?",Google Maps,TomTom
+Maps,"Google Maps’ AR navigation vs. competitors—is it the best?",Google Maps AR,Competitors
+AI Tools,"Google Assistant vs. Siri—which understands commands better?",Google Assistant,Siri
+AI Tools,"Is Gemini better than ChatGPT for coding help?",Gemini,ChatGPT
+AI Tools,"Compare Google’s AI tools (Vertex AI) to Microsoft’s Copilot.",Vertex AI,Microsoft Copilot
+AI Tools,"Which is more accurate: Google Translate or DeepL?",Google Translate,DeepL
+AI Tools,"Google’s speech-to-text vs. Otter.ai—which transcribes better?",Google Speech-to-Text,Otter.ai
+AI Tools,"Does Google Photos’ AI organize images better than Apple Photos?",Google Photos,Apple Photos
+AI Tools,"Google’s LaMDA vs. OpenAI’s GPT-4—which sounds more human?",LaMDA,GPT-4
+AI Tools,"Which AI summarizes articles better: Gemini or Claude?",Gemini,Claude
+AI Tools,"Google’s Duet AI vs. GitHub Copilot—which helps coders more?",Duet AI,GitHub Copilot
+AI Tools,"Should I use Google’s AI for business analytics or IBM Watson?",Google AI,IBM Watson
+Hardware,"Pixel vs. iPhone—which has a better camera?",Pixel,iPhone
+Hardware,"Is Nest better than Amazon Echo for smart home control?",Google Nest,Amazon Echo
+Hardware,"Compare Pixel Buds and AirPods for sound quality.",Pixel Buds,AirPods
+Hardware,"Which is more durable: Pixel Watch or Apple Watch?",Pixel Watch,Apple Watch
+Hardware,"Google Nest Hub vs. Amazon Show—which has better displays?",Nest Hub,Amazon Show
+Hardware,"Does Chromecast work better than Roku for streaming?",Chromecast,Roku
+Hardware,"Which is better for gaming: Stadia (historical) or Xbox Cloud?",Stadia,Xbox Cloud
+Hardware,"Pixel’s Call Screening vs. iPhone’s Silence Unknown Callers—which works better?",Pixel,iPhone
+Hardware,"Should I buy a Chromebook or MacBook for college?",Chromebook,MacBook
+Hardware,"Google’s AR glasses vs. Meta’s—which has more potential?",Google AR Glasses,Meta AR Glasses
+Advertising,"Google Ads vs. Meta Ads—which has better targeting?",Google Ads,Meta Ads
+Advertising,"Is Google Analytics more accurate than Adobe Analytics?",Google Analytics,Adobe Analytics
+Advertising,"Compare Google Search Console and Bing Webmaster Tools.",Google Search Console,Bing Webmaster Tools
+Advertising,"Which is better for small businesses: Google Ads or LinkedIn Ads?",Google Ads,LinkedIn Ads
+Advertising,"Google’s Keyword Planner vs. SEMrush—which is better for SEO?",Keyword Planner,SEMrush
+Advertising,"Does Google Optimize outperform Optimizely for A/B testing?",Google Optimize,Optimizely
+Advertising,"Which has better fraud detection: Google Ads or TikTok Ads?",Google Ads,TikTok Ads
+Advertising,"Google’s Performance Max vs. Microsoft’s Smart Campaigns—which drives more sales?",Performance Max,Microsoft Smart Campaigns
+Advertising,"Should I use Google Surveys or SurveyMonkey for market research?",Google Surveys,SurveyMonkey
+Advertising,"Google Data Studio vs. Tableau—which is better for dashboards?",Google Data Studio,Tableau
+Other,"Google Pay vs. Apple Pay—which is more widely accepted?",Google Pay,Apple Pay
+Other,"Is Google Fi a better mobile plan than Verizon?",Google Fi,Verizon
+Other,"Compare Google Podcasts and Spotify for podcast discovery.",Google Podcasts,Spotify
+Other,"Which is better for freelancers: Google’s Project IDX or VS Code?",Project IDX,VS Code
+Other,"Google’s Password Manager vs. LastPass—which is more secure?",Google Password Manager,LastPass
+Other,"Does Google News aggregate better than Flipboard?",Google News,Flipboard
+Other,"Which has better book recommendations: Google Play Books or Kindle?",Google Play Books,Kindle
+Other,"Google’s Area 120 projects vs. startups—any successes?",Area 120,Startups
+Other,"Should I use Google’s VPN or NordVPN?",Google VPN,NordVPN
+Other,"Google’s Carbon Footprint Tool vs. competitors—is it accurate?",Google Carbon Tool,Competitors
