@@ -4,6 +4,8 @@ from textblob import TextBlob
 import plotly.express as px
 from sklearn.feature_extraction.text import TfidfVectorizer
 nlp = spacy.load("en_core_web_trf")
+import logging
+logging.basicConfig(level=logging.INFO)
  
 
 class ComparativeAnalyzer:
@@ -49,11 +51,22 @@ class ComparativeAnalyzer:
             'comparative': []
         }
         
+        # Pre-process product names for matching
+        google_terms = [google_prod.lower()]
+        competitor_terms = [competitor.lower()]
+        
+        # Add common variations (you might want to expand these)
+        google_terms.extend([word.lower() for word in google_prod.split() if len(word) > 3])
+        competitor_terms.extend([word.lower() for word in competitor.split() if len(word) > 3])
+        
         # Sentence-level analysis
         for sent in doc.sents:
             sent_text = sent.text
-            g_mentioned = google_prod.lower() in sent_text.lower()
-            c_mentioned = competitor.lower() in sent_text.lower()
+            sent_lower = sent_text.lower()
+            
+            # Check for mentions using all possible terms
+            g_mentioned = any(term in sent_lower for term in google_terms)
+            c_mentioned = any(term in sent_lower for term in competitor_terms)
             
             if not (g_mentioned or c_mentioned):
                 continue
@@ -62,15 +75,25 @@ class ComparativeAnalyzer:
             is_pro = sentiment > 0.1
             is_con = sentiment < -0.1
             
-            # Classification logic
+            # Improved classification logic
             if g_mentioned and not c_mentioned:
                 target = 'google'
             elif c_mentioned and not g_mentioned:
                 target = 'competitor'
             else:
-                arguments['comparative'].append(sent_text)
-                continue
+                # Both mentioned - check which is the main subject
+                # Simple heuristic: the product mentioned first is likely the subject
+                first_google_pos = min([sent_lower.find(term) for term in google_terms if term in sent_lower], default=float('inf'))
+                first_comp_pos = min([sent_lower.find(term) for term in competitor_terms if term in sent_lower], default=float('inf'))
                 
+                if first_google_pos < first_comp_pos:
+                    target = 'google'
+                elif first_comp_pos < first_google_pos:
+                    target = 'competitor'
+                else:
+                    arguments['comparative'].append(sent_text)
+                    continue
+                    
             if is_pro:
                 arguments[target]['pro'].append(sent_text)
             elif is_con:

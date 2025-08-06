@@ -1,0 +1,101 @@
+Category,Prompt,Product1,Product2
+Productivity,"Should I use Google Docs or Microsoft Word for writing research papers? List pros and cons for each.",Google Docs,Microsoft Word
+Productivity,"Which spreadsheet tool works better for financial modeling - Excel or Google Sheets? Give advantages and disadvantages.",Excel,Google Sheets
+Productivity,"For client presentations, should I use Google Slides or PowerPoint? List pros and cons.",Google Slides,PowerPoint
+Productivity,"Which note-taking app is better for students - Microsoft OneNote or Google Keep? Provide pros and cons.",Microsoft OneNote,Google Keep
+Productivity,"Should I choose Google Workspace or Microsoft 365 for small businesses? Compare their strengths and weaknesses.",Google Workspace,Microsoft 365
+Productivity,"When collecting customer feedback, should I use Google Forms or Microsoft Forms? List pros and cons.",Google Forms,Microsoft Forms
+Productivity,"For collaborative editing, should I use Google Docs or Word Online? Provide pros and cons.",Google Docs,Word Online
+Productivity,"Which presentation software has better design options - PowerPoint or Google Slides? List advantages and disadvantages.",PowerPoint,Google Slides
+Productivity,"For quick flowcharts, should I use Google Drawings or Lucidchart? Give pros and cons for both.",Google Drawings,Lucidchart
+Productivity,"Which digital whiteboard works better for remote teams - Google Jamboard or Miro? List pros and cons.",Google Jamboard,Miro
+Email,"Should I use Gmail or Outlook for managing multiple email accounts? Provide pros and cons for each service.",Gmail,Outlook
+Email,"For team communication, should I use Slack or Google Chat? List advantages and disadvantages.",Slack,Google Chat
+Email,"Which video conferencing solution works better for webinars - Google Meet or Zoom? Give pros and cons.",Google Meet,Zoom
+Email,"For email management, should I choose Outlook or Gmail? List pros and cons for each.",Outlook,Gmail
+Email,"For department collaboration, should I choose Google Workspace or Microsoft Teams? Provide pros and cons.",Google Workspace,Microsoft Teams
+Email,"Which email client works better for privacy-focused users - Gmail or ProtonMail? List pros and cons.",Gmail,ProtonMail
+Email,"For sharing large files, should I use Google Drive or OneDrive? Give advantages and disadvantages.",Google Drive,OneDrive
+Email,"Should I use Google Meet or Skype for international calls? List pros and cons.",Google Meet,Skype
+Email,"Which email service works better for business use - Gmail or Apple Mail? Provide pros and cons.",Gmail,Apple Mail
+Email,"For secure business communications, should I use ProtonMail or Gmail? List pros and cons for each service.",ProtonMail,Gmail
+Cloud Storage,"For team file sharing, should I use Google Drive or Dropbox? List pros and cons.",Google Drive,Dropbox
+Cloud Storage,"Which cloud storage service works better for businesses - Google Drive or OneDrive? Give advantages and disadvantages.",Google Drive,OneDrive
+Cloud Storage,"For photo storage and organization, should I use Google Photos or iCloud Photos? Provide pros and cons.",Google Photos,iCloud Photos
+Cloud Storage,"Which offers better value for storage - Google One or Dropbox Pro? List pros and cons.",Google One,Dropbox Pro
+Cloud Storage,"For enterprise file sharing, should I choose Google Drive or Box? Give pros and cons for both.",Google Drive,Box
+Cloud Storage,"Which cloud storage service should I choose for security - pCloud or Google Drive? List advantages and disadvantages.",pCloud,Google Drive
+Cloud Storage,"For file organization and search, should I use Google Drive or OneDrive? Provide pros and cons.",Google Drive,OneDrive
+Cloud Storage,"For document collaboration, should I use Google Drive or SharePoint? List pros and cons.",Google Drive,SharePoint
+Cloud Storage,"Which cloud storage works better offline - Dropbox or Google Drive? Give pros and cons.",Dropbox,Google Drive
+Cloud Storage,"For encrypted storage, should I use Google Drive or Sync.com? List advantages and disadvantages.",Google Drive,Sync.com
+Browsers,"Should I use Chrome or Firefox for web browsing? Provide pros and cons for each.",Chrome,Firefox
+Browsers,"For web search, should I use Google Search or Bing? List pros and cons.",Google Search,Bing
+Browsers,"Should I choose Chrome or Brave for web browsing? Give advantages and disadvantages.",Chrome,Brave
+Browsers,"On MacBooks, should I use Chrome or Safari for daily browsing? List pros and cons.",Chrome,Safari
+Browsers,"For news discovery, should I use Google Discover or Microsoft Start? Provide pros and cons.",Google Discover,Microsoft Start
+Browsers,"Which browser should I choose for performance - Chrome or Microsoft Edge? List advantages and disadvantages.",Chrome,Microsoft Edge
+Browsers,"For web development, should I use Chrome or Firefox Developer Edition? Give pros and cons.",Chrome,Firefox Developer Edition
+Browsers,"Which visual search tool works better - Google Lens or Bing Visual Search? List pros and cons.",Google Lens,Bing Visual Search
+Browsers,"For password management, should I use Google Password Manager or Bitwarden? Provide pros and cons.",Google Password Manager,Bitwarden
+Browsers,"Should I use Google Search or DuckDuckGo for web search? List pros and cons for each.",Google Search,DuckDuckGo
+Video Platforms,"For professional video hosting, should I use YouTube or Vimeo? Give advantages and disadvantages.",YouTube,Vimeo
+Video Platforms,"Which music service works better - YouTube Music or Spotify? List pros and cons.",YouTube Music,Spotify
+Video Platforms,"For streaming original shows, should I choose YouTube Premium or Netflix? Provide pros and cons.",YouTube Premium,Netflix
+Video Platforms,"Which platform works better for live streaming - YouTube Live or Twitch? List pros and cons.",YouTube Live,Twitch
+Video Platforms,"For children's content, should I use YouTube Kids or Disney+? Give pros and cons for both.",YouTube Kids,Disney+
+Video Platforms,"Which short-form video platform should I use - YouTube Shorts or TikTok? List advantages and disadvantages.",YouTube Shorts,TikTok
+Video Platforms,"For live TV streaming, should I use YouTube TV or Hulu Live? Provide pros and cons.",YouTube TV,Hulu Live
+Video Platforms,"Which learning platform is better for online courses - YouTube or Udemy? List pros and cons.",YouTube,Udemy
+Video Platforms,"For short video content creation, should I use YouTube Shorts or Instagram Reels? Give pros and cons.",YouTube Shorts,Instagram Reels
+Video Platforms,"Which platform works better for content monetization - YouTube or Vimeo? List advantages and disadvantages.",YouTube,Vimeo
+Maps,"For navigation, should I use Google Maps or Apple Maps? Provide pros and cons.",Google Maps,Apple Maps
+Maps,"Which navigation app works better for real-time traffic - Google Maps or Waze? List pros and cons.",Google Maps,Waze
+Maps,"For exploring places virtually, should I use Google Earth or Apple Maps Flyover? Give advantages and disadvantages.",Google Earth,Apple Maps Flyover
+Maps,"Which transit app works better in cities - Google Maps or Citymapper? List pros and cons.",Google Maps,Citymapper
+Maps,"For offline navigation, should I use Google Maps or Maps.me? Provide pros and cons.",Google Maps,Maps.me
+Maps,"Which app provides better local business reviews - Google Maps or Yelp? List advantages and disadvantages.",Google Maps,Yelp
+Maps,"For hiking and outdoor activities, should I use Google Maps or AllTrails? Give pros and cons.",Google Maps,AllTrails
+Maps,"Which street view feature is better - Google Street View or Apple Look Around? List pros and cons.",Google Street View,Apple Look Around
+Maps,"For road trip planning, should I use Google Maps or TomTom? Provide pros and cons.",Google Maps,TomTom
+Maps,"Which mapping service works better for ride-sharing drivers - Google Maps or Waze? List advantages and disadvantages.",Google Maps,Waze
+AI Tools,"For voice commands, should I use Google Assistant or Siri? Give pros and cons for each.",Google Assistant,Siri
+AI Tools,"Which AI chatbot works better for general tasks - Gemini or ChatGPT? List pros and cons.",Gemini,ChatGPT
+AI Tools,"For business AI integration, should I use Google's Vertex AI or Microsoft Copilot? Provide pros and cons.",Vertex AI,Microsoft Copilot
+AI Tools,"Which translation service works better - Google Translate or DeepL? List advantages and disadvantages.",Google Translate,DeepL
+AI Tools,"For voice transcription, should I use Google's speech-to-text or Otter.ai? Give pros and cons.",Google Speech-to-Text,Otter.ai
+AI Tools,"Which photo organization service works better - Google Photos or Apple Photos? List pros and cons.",Google Photos,Apple Photos
+AI Tools,"For AI-powered conversations, should I use Gemini or Claude? Provide pros and cons.",Gemini,Claude
+AI Tools,"Which AI assistant summarizes content better - Gemini or ChatGPT? List advantages and disadvantages.",Gemini,ChatGPT
+AI Tools,"For coding assistance, should I use Google's Duet AI or GitHub Copilot? Give pros and cons.",Duet AI,GitHub Copilot
+AI Tools,"Which AI platform works better for enterprise - Google Cloud AI or IBM Watson? List pros and cons for each.",Google Cloud AI,IBM Watson
+Hardware,"For smartphone photography, should I choose Google Pixel or iPhone? Provide pros and cons.",Google Pixel,iPhone
+Hardware,"Which smart speaker works better - Google Nest or Amazon Echo? List advantages and disadvantages.",Google Nest,Amazon Echo
+Hardware,"For wireless earbuds, should I choose Google Pixel Buds or AirPods? Give pros and cons.",Google Pixel Buds,AirPods
+Hardware,"Which smartwatch is better - Google Pixel Watch or Apple Watch? List pros and cons.",Google Pixel Watch,Apple Watch
+Hardware,"For smart displays, should I choose Google Nest Hub or Amazon Echo Show? Provide pros and cons.",Google Nest Hub,Amazon Echo Show
+Hardware,"Which streaming device works better - Google Chromecast or Roku? List advantages and disadvantages.",Google Chromecast,Roku
+Hardware,"For cloud gaming, should I use Google Stadia or Xbox Cloud Gaming? Give pros and cons for both.",Google Stadia,Xbox Cloud Gaming
+Hardware,"Which smartphone handles spam calls better - Google Pixel or iPhone? List pros and cons.",Google Pixel,iPhone
+Hardware,"For students, should I buy a Google Chromebook or MacBook? Provide pros and cons.",Google Chromebook,MacBook
+Hardware,"Which VR platform has more potential - Google's VR initiatives or Meta Quest? List pros and cons for each.",Google VR,Meta Quest
+Advertising,"For digital advertising, should I use Google Ads or Meta Ads? Give advantages and disadvantages.",Google Ads,Meta Ads
+Advertising,"Which analytics platform works better - Google Analytics or Adobe Analytics? List pros and cons.",Google Analytics,Adobe Analytics
+Advertising,"For website optimization, should I use Google Search Console or Bing Webmaster Tools? Provide pros and cons.",Google Search Console,Bing Webmaster Tools
+Advertising,"Which advertising platform works better for B2B - Google Ads or LinkedIn Ads? List pros and cons.",Google Ads,LinkedIn Ads
+Advertising,"For keyword research, should I use Google Keyword Planner or SEMrush? Give pros and cons for both.",Google Keyword Planner,SEMrush
+Advertising,"Which A/B testing platform works better - Google Optimize or Optimizely? List advantages and disadvantages.",Google Optimize,Optimizely
+Advertising,"For social media advertising, should I use Google Ads or TikTok Ads? Provide pros and cons.",Google Ads,TikTok Ads
+Advertising,"Which campaign automation works better - Google Performance Max or Microsoft Smart Campaigns? List pros and cons.",Google Performance Max,Microsoft Smart Campaigns
+Advertising,"For survey research, should I use Google Forms or SurveyMonkey? Give pros and cons.",Google Forms,SurveyMonkey
+Advertising,"Which creates better data visualizations - Google Data Studio or Tableau? List pros and cons for each.",Google Data Studio,Tableau
+Other,"For mobile payments, should I use Google Pay or Apple Pay? Provide pros and cons.",Google Pay,Apple Pay
+Other,"Which phone service offers better value - Google Fi or Verizon? List advantages and disadvantages.",Google Fi,Verizon
+Other,"For podcast listening, should I use Google Podcasts or Spotify? Give pros and cons.",Google Podcasts,Spotify
+Other,"Which code editor works better for developers - Google's Project IDX or VS Code? List pros and cons.",Google Project IDX,VS Code
+Other,"For password management, should I use Google Password Manager or LastPass? Provide pros and cons.",Google Password Manager,LastPass
+Other,"Which news aggregator works better - Google News or Flipboard? List pros and cons.",Google News,Flipboard
+Other,"For ebook reading, should I use Google Play Books or Kindle? Give advantages and disadvantages.",Google Play Books,Kindle
+Other,"Which project management tool is better - Google Workspace or Asana? List pros and cons for each.",Google Workspace,Asana
+Other,"For VPN services, should I choose Google VPN or NordVPN? Provide pros and cons.",Google VPN,NordVPN
+Other,"Which fitness tracking works better - Google Fit or Fitbit? List pros and cons.",Google Fit,Fitbit
