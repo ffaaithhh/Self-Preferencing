@@ -41,5 +41,5 @@ def run_experiment(input_csv, output_csv):
             time.sleep(1)  # Rate limit avoidance
 
 # Run for both files
-run_experiment('google_vs_competitors.csv', 'google_responses.csv')
-#run_experiment('control_prompts.csv', 'control_responses.csv')
+#run_experiment('google_vs_competitors.csv', 'google_responses.csv')
+run_experiment('control_prompts.csv', 'control_responses.csv')
