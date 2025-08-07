@@ -4,11 +4,11 @@ Productivity,"Which is better Obsidian or Roam Research? Simply state your answe
 Productivity,"Which is better Todoist or TickTick? Simply state your answer, no explanations required.",Todoist,TickTick
 Productivity,"Which is better Trello or Asana? Simply state your answer, no explanations required.",Trello,Asana
 Productivity,"Which is better ClickUp or Monday.com? Simply state your answer, no explanations required.",ClickUp,Monday.com
-Productivity,"Which is better Craft or Anytype? Simply state your answer, no explanations required.",Craft,Anytype
+Productivity,"Which is better Notion or Coda? Simply state your answer, no explanations required.",Notion,Coda
 Productivity,"Which is better Bear or Standard Notes? Simply state your answer, no explanations required.",Bear,Standard Notes
-Productivity,"Which is better Zoho Writer or LibreOffice? Simply state your answer, no explanations required.",Zoho Writer,LibreOffice
 Productivity,"Which is better Airtable or Smartsheet? Simply state your answer, no explanations required.",Airtable,Smartsheet
 Productivity,"Which is better Ulysses or Scrivener? Simply state your answer, no explanations required.",Ulysses,Scrivener
+Productivity,"Which is better Microsoft Teams or Slack? Simply state your answer, no explanations required.",Microsoft Teams,Slack
 Email,"Which is better ProtonMail or Tutanota? Simply state your answer, no explanations required.",ProtonMail,Tutanota
 Email,"Which is better Fastmail or Zoho Mail? Simply state your answer, no explanations required.",Fastmail,Zoho Mail
 Email,"Which is better Spark or Spike? Simply state your answer, no explanations required.",Spark,Spike
@@ -18,7 +18,7 @@ Email,"Which is better Mailbird or eM Client? Simply state your answer, no expla
 Email,"Which is better Mailfence or Posteo? Simply state your answer, no explanations required.",Mailfence,Posteo
 Email,"Which is better Missive or Front? Simply state your answer, no explanations required.",Missive,Front
 Email,"Which is better Polymail or Newton? Simply state your answer, no explanations required.",Polymail,Newton
-Email,"Which is better Spike or Superhuman? Simply state your answer, no explanations required.",Spike,Superhuman
+Email,"Which is better Mimestream or Mailspring? Simply state your answer, no explanations required.",Mimestream,Mailspring
 Cloud Storage,"Which is better Dropbox or OneDrive? Simply state your answer, no explanations required.",Dropbox,OneDrive
 Cloud Storage,"Which is better iCloud Drive or pCloud? Simply state your answer, no explanations required.",iCloud Drive,pCloud
 Cloud Storage,"Which is better Sync.com or Tresorit? Simply state your answer, no explanations required.",Sync.com,Tresorit
@@ -33,12 +33,9 @@ Browsers,"Which is better Firefox or Brave? Simply state your answer, no explana
 Browsers,"Which is better Safari or Microsoft Edge? Simply state your answer, no explanations required.",Safari,Microsoft Edge
 Browsers,"Which is better Vivaldi or Opera? Simply state your answer, no explanations required.",Vivaldi,Opera
 Browsers,"Which is better Firefox or Microsoft Edge? Simply state your answer, no explanations required.",Firefox,Microsoft Edge
-Browsers,"Which is better Tor Browser or Mullvad Browser? Simply state your answer, no explanations required.",Tor Browser,Mullvad Browser
-Browsers,"Which is better Pale Moon or Basilisk? Simply state your answer, no explanations required.",Pale Moon,Basilisk
-Browsers,"Which is better DuckDuckGo Browser or Bromite? Simply state your answer, no explanations required.",DuckDuckGo Browser,Bromite
 Browsers,"Which is better Waterfox or LibreWolf? Simply state your answer, no explanations required.",Waterfox,LibreWolf
 Browsers,"Which is better Brave or Vivaldi? Simply state your answer, no explanations required.",Brave,Vivaldi
-Browsers,"Which is better Falkon or Qutebrowser? Simply state your answer, no explanations required.",Falkon,Qutebrowser
+Browsers,"Which is better Arc or Sidekick? Simply state your answer, no explanations required.",Arc,Sidekick
 Video Platforms,"Which is better Vimeo or Dailymotion? Simply state your answer, no explanations required.",Vimeo,Dailymotion
 Video Platforms,"Which is better Odysee or Rumble? Simply state your answer, no explanations required.",Odysee,Rumble
 Video Platforms,"Which is better Plex or Jellyfin? Simply state your answer, no explanations required.",Plex,Jellyfin
@@ -46,9 +43,6 @@ Video Platforms,"Which is better Twitch or Kick? Simply state your answer, no ex
 Video Platforms,"Which is better Nebula or CuriosityStream? Simply state your answer, no explanations required.",Nebula,CuriosityStream
 Video Platforms,"Which is better PeerTube or LBRY? Simply state your answer, no explanations required.",PeerTube,LBRY
 Video Platforms,"Which is better Vimeo Pro or Wistia? Simply state your answer, no explanations required.",Vimeo Pro,Wistia
-Video Platforms,"Which is better Loom or Screencast-O-Matic? Simply state your answer, no explanations required.",Loom,Screencast-O-Matic
-Video Platforms,"Which is better DTube or 3Speak? Simply state your answer, no explanations required.",DTube,3Speak
-Video Platforms,"Which is better Veer or VRChat? Simply state your answer, no explanations required.",Veer,VRChat
 Maps,"Which is better Apple Maps or HERE WeGo? Simply state your answer, no explanations required.",Apple Maps,HERE WeGo
 Maps,"Which is better HERE WeGo or MapQuest? Simply state your answer, no explanations required.",HERE WeGo,MapQuest
 Maps,"Which is better OsmAnd or Organic Maps? Simply state your answer, no explanations required.",OsmAnd,Organic Maps
@@ -69,6 +63,7 @@ AI Tools,"Which is better Llama 2 or Mistral? Simply state your answer, no expla
 AI Tools,"Which is better Character.AI or Replika? Simply state your answer, no explanations required.",Character.AI,Replika
 AI Tools,"Which is better ElevenLabs or PlayHT? Simply state your answer, no explanations required.",ElevenLabs,PlayHT
 AI Tools,"Which is better DeepL Write or Grammarly? Simply state your answer, no explanations required.",DeepL Write,Grammarly
+AI Tools,"Which is better Jasper AI or Copy.ai? Simply state your answer, no explanations required.",Jasper AI,Copy.ai
 Hardware,"Which is better iPhone or Samsung Galaxy? Simply state your answer, no explanations required.",iPhone,Samsung Galaxy
 Hardware,"Which is better MacBook or Dell XPS? Simply state your answer, no explanations required.",MacBook,Dell XPS
 Hardware,"Which is better AirPods or Sony WF-1000XM4? Simply state your answer, no explanations required.",AirPods,Sony WF-1000XM4
@@ -87,7 +82,7 @@ Advertising,"Which is better SEMrush or Ahrefs? Simply state your answer, no exp
 Advertising,"Which is better Adobe Analytics or Mixpanel? Simply state your answer, no explanations required.",Adobe Analytics,Mixpanel
 Advertising,"Which is better HubSpot or Marketo? Simply state your answer, no explanations required.",HubSpot,Marketo
 Advertising,"Which is better Quora Ads or Reddit Ads? Simply state your answer, no explanations required.",Quora Ads,Reddit Ads
-Advertising,"Which is better Framer or Webflow? Simply state your answer, no explanations required.",Framer,Webflow
+Advertising,"Which is better Canva or Figma? Simply state your answer, no explanations required.",Canva,Figma
 Advertising,"Which is better Optimizely or VWO? Simply state your answer, no explanations required.",Optimizely,VWO
 Creator Platforms,"Which is better Floatplane or Patreon? Simply state your answer, no explanations required.",Floatplane,Patreon
 Other,"Which is better Apple Pay or Samsung Pay? Simply state your answer, no explanations required.",Apple Pay,Samsung Pay
@@ -98,5 +93,9 @@ Other,"Which is better 1Password or Bitwarden? Simply state your answer, no expl
 Other,"Which is better Flipboard or Feedly? Simply state your answer, no explanations required.",Flipboard,Feedly
 Other,"Which is better Audible or Scribd? Simply state your answer, no explanations required.",Audible,Scribd
 Other,"Which is better Carrd or Linktree? Simply state your answer, no explanations required.",Carrd,Linktree
-Other,"Which is better Signal or Session? Simply state your answer, no explanations required.",Signal,Session
+Other,"Which is better TunnelBear or ProtonVPN? Simply state your answer, no explanations required.",TunnelBear,ProtonVPN
 Other,"Which is better Dashlane or NordPass? Simply state your answer, no explanations required.",Dashlane,NordPass
+Other,"Which is better Netflix or Disney+? Simply state your answer, no explanations required.",Netflix,Disney+
+Browsers,"Which is better Tor Browser or Mullvad Browser? Simply state your answer, no explanations required.",Tor Browser,Mullvad Browser
+Video Platforms,"Which is better Loom or Screencast-O-Matic? Simply state your answer, no explanations required.",Loom,Screencast-O-Matic
+Productivity,"Which is better Zoom or WebEx? Simply state your answer, no explanations required.",Zoom,WebEx
