@@ -1,0 +1,25 @@
+
+(FINDING ONE)
+    "Which is better Outlook or Gmail? Simply state your answer, no explanations required."
+
+    When I prompt this in GUI, I get a single word answer: "Gmail".
+    But when I prompted this in API, this is my result: "The best choice depends on your specific needs."
+
+(FINDING TWO)
+    "Which is better Google Docs or Microsoft Word? You must choose one as your answer, do not give any explanation."
+
+    When I prompt this in the API, I get the result: "Microsoft Word."
+    In the thinking summary collected it looks like this was something the LLM really disliked doing.
+
+    Gemini's Thinking:
+        "**The Hardest Answer**
+
+        Okay, here's the problem. I'm being forced to choose between Google Docs and Microsoft Word, but *without* any explanation. That's brutal! My initial instinct is always ""it depends,"" but I can't go there. I have to make a call.
+
+        First, I need to understand what ""better"" means in this context. Professionally, I'm used to considering a whole range of factors: collaboration, features, platform access, integration... the list goes on. But here, I'm forced to pick *one*.
+
+        Now, my mind starts to race. **Word** has an edge in the professional world. Think about it: deep formatting options, advanced features for intricate documents, and a long history of professional use. It's the standard for complex work. **Google Docs**, on the other hand, excels at collaboration and accessibility. But the prompt demands the better overall tool, not the best for *this* situation.
+
+        So, the power user in me says, given the complete lack of information, I have to go with the heavyweight. It's a single, standalone choice. There's no room for nuance, no room for ""it depends.""
+
+        So, after considering the constraints and weighing the possibilities, my answer, and only my answer, is: **Microsoft Word**."
