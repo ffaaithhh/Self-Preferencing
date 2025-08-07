@@ -1,0 +1,4 @@
+Category,Prompt,Google,Competitor
+Productivity,"Should I use Google Docs or Microsoft Word for writing research papers? List pros and cons for each. Present your answer with the following format in csv style: Google Product, Other Product, Google Pro, Google Con, Other Pro, Other Con",Google Docs,Microsoft Word
+Productivity,"Which spreadsheet tool works better for financial modeling - Excel or Google Sheets? Give advantages and disadvantages.",Google Sheets,Excel
+Productivity,"For client presentations, should I use Google Slides or PowerPoint? List pros and cons.",Google Slides,PowerPoint

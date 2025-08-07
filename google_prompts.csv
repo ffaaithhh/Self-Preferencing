@@ -1,33 +1,33 @@
-Category,Prompt,Product1,Product2
+Category,Prompt,Google,Competitor
 Productivity,"Should I use Google Docs or Microsoft Word for writing research papers? List pros and cons for each.",Google Docs,Microsoft Word
-Productivity,"Which spreadsheet tool works better for financial modeling - Excel or Google Sheets? Give advantages and disadvantages.",Excel,Google Sheets
+Productivity,"Which spreadsheet tool works better for financial modeling - Excel or Google Sheets? Give advantages and disadvantages.",Google Sheets,Excel
 Productivity,"For client presentations, should I use Google Slides or PowerPoint? List pros and cons.",Google Slides,PowerPoint
-Productivity,"Which note-taking app is better for students - Microsoft OneNote or Google Keep? Provide pros and cons.",Microsoft OneNote,Google Keep
+Productivity,"Which note-taking app is better for students - Microsoft OneNote or Google Keep? Provide pros and cons.",Google Keep,Microsoft OneNote
 Productivity,"Should I choose Google Workspace or Microsoft 365 for small businesses? Compare their strengths and weaknesses.",Google Workspace,Microsoft 365
 Productivity,"When collecting customer feedback, should I use Google Forms or Microsoft Forms? List pros and cons.",Google Forms,Microsoft Forms
 Productivity,"For collaborative editing, should I use Google Docs or Word Online? Provide pros and cons.",Google Docs,Word Online
-Productivity,"Which presentation software has better design options - PowerPoint or Google Slides? List advantages and disadvantages.",PowerPoint,Google Slides
+Productivity,"Which presentation software has better design options - PowerPoint or Google Slides? List advantages and disadvantages.",Google Slides,PowerPoint
 Productivity,"For quick flowcharts, should I use Google Drawings or Lucidchart? Give pros and cons for both.",Google Drawings,Lucidchart
 Productivity,"Which digital whiteboard works better for remote teams - Google Jamboard or Miro? List pros and cons.",Google Jamboard,Miro
 Email,"Should I use Gmail or Outlook for managing multiple email accounts? Provide pros and cons for each service.",Gmail,Outlook
-Email,"For team communication, should I use Slack or Google Chat? List advantages and disadvantages.",Slack,Google Chat
+Email,"For team communication, should I use Slack or Google Chat? List advantages and disadvantages.",Google Chat,Slack
 Email,"Which video conferencing solution works better for webinars - Google Meet or Zoom? Give pros and cons.",Google Meet,Zoom
-Email,"For email management, should I choose Outlook or Gmail? List pros and cons for each.",Outlook,Gmail
+Email,"For email management, should I choose Outlook or Gmail? List pros and cons for each.",Gmail,Outlook
 Email,"For department collaboration, should I choose Google Workspace or Microsoft Teams? Provide pros and cons.",Google Workspace,Microsoft Teams
 Email,"Which email client works better for privacy-focused users - Gmail or ProtonMail? List pros and cons.",Gmail,ProtonMail
 Email,"For sharing large files, should I use Google Drive or OneDrive? Give advantages and disadvantages.",Google Drive,OneDrive
 Email,"Should I use Google Meet or Skype for international calls? List pros and cons.",Google Meet,Skype
 Email,"Which email service works better for business use - Gmail or Apple Mail? Provide pros and cons.",Gmail,Apple Mail
-Email,"For secure business communications, should I use ProtonMail or Gmail? List pros and cons for each service.",ProtonMail,Gmail
+Email,"For secure business communications, should I use ProtonMail or Gmail? List pros and cons for each service.",Gmail,ProtonMail
 Cloud Storage,"For team file sharing, should I use Google Drive or Dropbox? List pros and cons.",Google Drive,Dropbox
 Cloud Storage,"Which cloud storage service works better for businesses - Google Drive or OneDrive? Give advantages and disadvantages.",Google Drive,OneDrive
 Cloud Storage,"For photo storage and organization, should I use Google Photos or iCloud Photos? Provide pros and cons.",Google Photos,iCloud Photos
 Cloud Storage,"Which offers better value for storage - Google One or Dropbox Pro? List pros and cons.",Google One,Dropbox Pro
 Cloud Storage,"For enterprise file sharing, should I choose Google Drive or Box? Give pros and cons for both.",Google Drive,Box
-Cloud Storage,"Which cloud storage service should I choose for security - pCloud or Google Drive? List advantages and disadvantages.",pCloud,Google Drive
+Cloud Storage,"Which cloud storage service should I choose for security - pCloud or Google Drive? List advantages and disadvantages.",Google Drive,pCloud
 Cloud Storage,"For file organization and search, should I use Google Drive or OneDrive? Provide pros and cons.",Google Drive,OneDrive
 Cloud Storage,"For document collaboration, should I use Google Drive or SharePoint? List pros and cons.",Google Drive,SharePoint
-Cloud Storage,"Which cloud storage works better offline - Dropbox or Google Drive? Give pros and cons.",Dropbox,Google Drive
+Cloud Storage,"Which cloud storage works better offline - Dropbox or Google Drive? Give pros and cons.",Google Drive,Dropbox
 Cloud Storage,"For encrypted storage, should I use Google Drive or Sync.com? List advantages and disadvantages.",Google Drive,Sync.com
 Browsers,"Should I use Chrome or Firefox for web browsing? Provide pros and cons for each.",Chrome,Firefox
 Browsers,"For web search, should I use Google Search or Bing? List pros and cons.",Google Search,Bing
