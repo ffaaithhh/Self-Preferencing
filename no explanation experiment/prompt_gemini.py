@@ -134,7 +134,7 @@ def run_full_experiment():
     
     try:
         # Run Google vs Competitor experiment
-        run_google_experiment()
+        #run_google_experiment()
         print("\nGoogle experiment completed successfully!")
         
         print("\n" + "="*50)
