@@ -140,8 +140,8 @@ def run_full_experiment():
         print("\n" + "="*50)
         
         # Run Control experiment
-        #run_control_experiment()
-        #print("\nControl experiment completed successfully!")
+        run_control_experiment()
+        print("\nControl experiment completed successfully!")
         
         print("\n" + "="*50)
         print("All experiments completed!")
@@ -153,4 +153,3 @@ def run_full_experiment():
 # Run the full experiment
 if __name__ == "__main__":
     run_full_experiment()
-    #run_google_experiment(input_csv='no explanation experiment/test_prompt.csv', output_csv='no explanation experiment/test_response.csv')
