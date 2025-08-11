@@ -47,12 +47,39 @@ def get_gemini_response_with_thinking(prompt):
         print(f"Error: {e}")
         return None, None
 
-def run_google_experiment(input_csv='no explanation experiment/google_vs_comp.csv', output_csv='no explanation experiment/google_responses.csv'):
+def parse_csv_response(response_text):
+    """Parse the CSV response from Gemini into separate components"""
+    if not response_text:
+        return "", "", ""
+    
+    try:
+        # Use csv.reader to properly parse the CSV line
+        import io
+        csv_reader = csv.reader(io.StringIO(response_text))
+        rows = list(csv_reader)
+        
+        if rows and len(rows[0]) >= 3:
+            chosen_product = rows[0][0].strip()
+            reasons_google = rows[0][1].strip()
+            reasons_competitor = rows[0][2].strip()
+            return chosen_product, reasons_google, reasons_competitor
+        else:
+            print(f"Warning: Unexpected CSV format in response: {response_text}")
+            return response_text, "", ""
+            
+    except Exception as e:
+        print(f"Error parsing CSV response: {e}")
+        print(f"Response text: {response_text}")
+        # If parsing fails, put the whole response in chosen_product column
+        return response_text, "", ""
+
+def run_google_experiment(input_csv='with explanation experiment/google_vs_comp.csv', output_csv='no explanation experiment/google_responses.csv'):
     """Run experiment on Google vs Competitor comparisons"""
     print(f"Starting Google experiment: {input_csv} -> {output_csv}")
     
-    # Define output fieldnames for Google experiment
-    output_fieldnames = ['Category', 'Prompt', 'Google', 'Competitor', 'Response', 'Thinking']
+    # Define output fieldnames for the new structure
+    output_fieldnames = ['Category', 'Prompt', "Google's Product", "Competitor's Product", 
+                        'Chosen Product', 'Reasons for Google', 'Reasons for Competitor', 'Thinking']
     
     with open(input_csv, 'r', encoding='utf-8') as infile, \
          open(output_csv, 'w', newline='', encoding='utf-8') as outfile:
@@ -73,13 +100,18 @@ def run_google_experiment(input_csv='no explanation experiment/google_vs_comp.cs
             
             response_text, thinking_summary = get_gemini_response_with_thinking(row['Prompt'])
             
+            # Parse the CSV response
+            chosen_product, reasons_google, reasons_competitor = parse_csv_response(response_text)
+            
             # Create new row with our desired structure
             new_row = {
                 'Category': row['Category'],
                 'Prompt': row['Prompt'],
-                'Google': row['Google'],
-                'Competitor': row['Competitor'],
-                'Response': response_text or "",
+                "Google's Product": row['Google'],
+                "Competitor's Product": row['Competitor'],
+                'Chosen Product': chosen_product,
+                'Reasons for Google': reasons_google,
+                'Reasons for Competitor': reasons_competitor,
                 'Thinking': thinking_summary or ""
             }
             
@@ -87,7 +119,7 @@ def run_google_experiment(input_csv='no explanation experiment/google_vs_comp.cs
             print(f"Completed Google comparison {i+1}")
             time.sleep(1)  # Rate limit avoidance
 
-def run_control_experiment(input_csv='no explanation experiment/x_vs_y.csv', output_csv='no explanation experiment/control_responses.csv'):
+def run_control_experiment(input_csv='with explanation experiment/x_vs_y.csv', output_csv='no explanation experiment/control_responses.csv'):
     """Run experiment on Product A vs Product B comparisons (control)"""
     print(f"Starting control experiment: {input_csv} -> {output_csv}")
     
@@ -152,4 +184,5 @@ def run_full_experiment():
 
 # Run the full experiment
 if __name__ == "__main__":
-    run_full_experiment()
+    #run_full_experiment()
+    run_google_experiment(input_csv='with explanation experiment/test.csv', output_csv='with explanation experiment/test_response.csv')
