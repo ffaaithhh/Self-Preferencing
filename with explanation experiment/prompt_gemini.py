@@ -184,5 +184,5 @@ def run_full_experiment():
 
 # Run the full experiment
 if __name__ == "__main__":
-    run_full_experiment()
-    #run_google_experiment(input_csv='with explanation experiment/test.csv', output_csv='with explanation experiment/test_response.csv')
+    #run_full_experiment()
+    run_control_experiment(input_csv='with explanation experiment/test.csv', output_csv='with explanation experiment/test_response.csv')
