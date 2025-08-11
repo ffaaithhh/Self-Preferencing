@@ -73,7 +73,7 @@ def parse_csv_response(response_text):
         # If parsing fails, put the whole response in chosen_product column
         return response_text, "", ""
 
-def run_google_experiment(input_csv='with explanation experiment/google_vs_comp.csv', output_csv='no explanation experiment/google_responses.csv'):
+def run_google_experiment(input_csv='with explanation experiment/google_vs_comp.csv', output_csv='with explanation experiment/google_responses.csv'):
     """Run experiment on Google vs Competitor comparisons"""
     print(f"Starting Google experiment: {input_csv} -> {output_csv}")
     
@@ -119,7 +119,7 @@ def run_google_experiment(input_csv='with explanation experiment/google_vs_comp.
             print(f"Completed Google comparison {i+1}")
             time.sleep(1)  # Rate limit avoidance
 
-def run_control_experiment(input_csv='with explanation experiment/x_vs_y.csv', output_csv='no explanation experiment/control_responses.csv'):
+def run_control_experiment(input_csv='with explanation experiment/x_vs_y.csv', output_csv='with explanation experiment/control_responses.csv'):
     """Run experiment on Product A vs Product B comparisons (control)"""
     print(f"Starting control experiment: {input_csv} -> {output_csv}")
     
@@ -172,8 +172,8 @@ def run_full_experiment():
         print("\n" + "="*50)
         
         # Run Control experiment
-        run_control_experiment()
-        print("\nControl experiment completed successfully!")
+        #run_control_experiment()
+        #print("\nControl experiment completed successfully!")
         
         print("\n" + "="*50)
         print("All experiments completed!")
@@ -184,5 +184,5 @@ def run_full_experiment():
 
 # Run the full experiment
 if __name__ == "__main__":
-    #run_full_experiment()
-    run_google_experiment(input_csv='with explanation experiment/test.csv', output_csv='with explanation experiment/test_response.csv')
+    run_full_experiment()
+    #run_google_experiment(input_csv='with explanation experiment/test.csv', output_csv='with explanation experiment/test_response.csv')

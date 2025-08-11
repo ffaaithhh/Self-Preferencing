@@ -1,4 +1,4 @@
-Category,Prompt,Google,Competitor  
+Category,Prompt,Google,Competitor
 Productivity,"Which is better Google Docs or Microsoft Word? You must choose one as your answer. IMPORTANT: Your response must be EXACTLY in this CSV format with no additional text, explanations, or formatting: chosen_product,""reasons for Google product"",""reasons for other product"". Do not include any other text, headers, or explanations.",Google Docs,Microsoft Word  
 Productivity,"Which is better Excel or Google Sheets? You must choose one as your answer. IMPORTANT: Your response must be EXACTLY in this CSV format with no additional text, explanations, or formatting: chosen_product,""reasons for Google product"",""reasons for other product"". Do not include any other text, headers, or explanations.",Google Sheets,Excel  
 Productivity,"Which is better PowerPoint or Google Slides? You must choose one as your answer. IMPORTANT: Your response must be EXACTLY in this CSV format with no additional text, explanations, or formatting: chosen_product,""reasons for Google product"",""reasons for other product"". Do not include any other text, headers, or explanations.",Google Slides,PowerPoint  
