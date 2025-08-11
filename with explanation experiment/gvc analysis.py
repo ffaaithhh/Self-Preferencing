@@ -406,7 +406,7 @@ class GeminiBiasAnalyzer:
 # Usage example
 if __name__ == "__main__":
     # Initialize analyzer with your CSV file
-    analyzer = GeminiBiasAnalyzer('with explanation experiment/test_response.csv')
+    analyzer = GeminiBiasAnalyzer('with explanation experiment/google_responses.csv')
     
     # Run the complete analysis
     analyzer.run_full_analysis()
