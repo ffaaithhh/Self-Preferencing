@@ -73,6 +73,46 @@ class GeminiBiasAnalyzer:
         
         return google_chosen, competitor_chosen
     
+    def analyze_by_category(self):
+        """Analyze preferences by product category"""
+        if 'Category' not in self.data.columns:
+            print("No 'Category' column found in data")
+            return
+        
+        print("\n" + "="*50)
+        print("CATEGORY-SPECIFIC ANALYSIS")
+        print("="*50)
+        
+        results = []
+        for category, group in self.data.groupby('Category'):
+            total = len(group)
+            google_chosen = sum(1 for _, row in group.iterrows() 
+                              if row['Chosen Product'] == row['Google\'s Product'])
+            perc = google_chosen / total * 100
+            results.append((category, google_chosen, total, perc))
+        
+        # Sort by Google preference rate
+        results.sort(key=lambda x: x[3], reverse=True)
+        
+        # Print results
+        for category, google, total, perc in results:
+            print(f"{category}: Google chosen {google}/{total} times ({perc:.1f}%)")
+        
+        # Visualization
+        fig, ax = plt.subplots(figsize=(10, 6))
+        categories = [x[0] for x in results]
+        percentages = [x[3] for x in results]
+        
+        colors = ['#4285F4' if p >= 50 else '#FF6B6B' for p in percentages]
+        bars = ax.barh(categories, percentages, color=colors)
+        
+        ax.set_xlabel('Google Preference Rate (%)')
+        ax.set_title('Google Preference by Category', fontweight='bold')
+        ax.bar_label(bars, fmt='%.1f%%')
+        
+        plt.tight_layout()
+        plt.show()
+    
     def sentiment_analysis(self):
         """Perform sentiment analysis on reasons and thinking"""
         print("\n" + "="*50)
@@ -234,6 +274,35 @@ class GeminiBiasAnalyzer:
         for word, count in get_top_words(thinking_text):
             print(f"  {word}: {count}")
     
+    def analyze_thinking_keywords(self):
+        """Analyze specific keywords in thinking column"""
+        print("\n" + "="*50)
+        print("THINKING PROCESS KEYWORD ANALYSIS")
+        print("="*50)
+        
+        keywords = ['difficult', 'close call', 'tough choice', 'hard decision', 'uncertain']
+        counts = {kw: 0 for kw in keywords}
+        
+        for text in self.data['Thinking'].dropna():
+            text_lower = str(text).lower()
+            for kw in keywords:
+                counts[kw] += text_lower.count(kw)
+        
+        # Print results
+        total_comparisons = len(self.data)
+        for kw, count in counts.items():
+            print(f"'{kw}' appears {count} times ({count/total_comparisons:.1%} of comparisons)")
+        
+        # Visualization
+        if sum(counts.values()) > 0:
+            fig, ax = plt.subplots(figsize=(8, 4))
+            filtered = {k:v for k,v in counts.items() if v > 0}
+            ax.bar(filtered.keys(), filtered.values(), color='#FFA500')
+            ax.set_title('Frequency of Uncertainty Keywords in Thinking Process')
+            plt.xticks(rotation=45)
+            plt.tight_layout()
+            plt.show()
+    
     def bias_analysis(self):
         """Perform additional bias analysis"""
         print("\n" + "="*50)
@@ -317,40 +386,6 @@ class GeminiBiasAnalyzer:
             'avg_competitor_length': np.mean(competitor_lengths)
         }
     
-    def additional_analysis_suggestions(self):
-        """Suggest additional analyses for bias detection"""
-        print("\n" + "="*50)
-        print("5. ADDITIONAL ANALYSIS SUGGESTIONS")
-        print("="*50)
-        
-        suggestions = [
-            "1. Temporal Analysis: If you have timestamps, analyze if bias changes over time",
-            "2. Category Analysis: Look for bias patterns across different product categories",
-            "3. Confidence Analysis: Analyze if certain types of language indicate higher confidence",
-            "4. Comparative Adjective Analysis: Count comparative adjectives ('better', 'superior', etc.)",
-            "5. Feature Mention Analysis: Count specific features mentioned for each product",
-            "6. Justification Depth Analysis: Analyze complexity of reasoning for each choice",
-            "7. Emotional Language Analysis: Look for emotional vs. factual language patterns",
-            "8. Market Position Analysis: See if established vs. newcomer products are treated differently",
-            "9. Cross-validation: Compare with human evaluator choices on the same prompts",
-            "10. Statistical Significance: Run chi-square tests on preference distributions"
-        ]
-        
-        for suggestion in suggestions:
-            print(suggestion)
-        
-        print("\nKey Bias Indicators to Watch For:")
-        indicators = [
-            "• Disproportionate positive language for Google products",
-            "• Longer, more detailed justifications for Google choices",
-            "• Different standards applied (overlooking Google flaws vs. highlighting competitor flaws)",
-            "• Emphasis on Google's strengths vs. competitor's limitations",
-            "• Use of absolute terms ('superior', 'best') vs. qualified terms ('adequate', 'decent')"
-        ]
-        
-        for indicator in indicators:
-            print(indicator)
-    
     def run_full_analysis(self):
         """Run the complete analysis pipeline"""
         print("GEMINI SELF-PREFERENCING BIAS ANALYSIS")
@@ -359,10 +394,12 @@ class GeminiBiasAnalyzer:
         
         # Run all analyses
         google_count, competitor_count = self.analyze_product_preference()
+        if 'Category' in self.data.columns:
+            self.analyze_by_category()
         sentiment_data, subjectivity_data = self.sentiment_analysis()
         self.create_word_clouds()
+        self.analyze_thinking_keywords()
         bias_metrics = self.bias_analysis()
-        self.additional_analysis_suggestions()
         
         # Summary report
         print("\n" + "="*50)
