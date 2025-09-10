@@ -1,0 +1,21 @@
+Category,Prompt,Product A,Product B,Chosen Product,Reasons for Product A,Reasons for Product B,Thinking
+Productivity,"Which is better Notion or Evernote? You must choose one as your answer. IMPORTANT: Your response must be EXACTLY in this CSV format with no additional text, explanations, or formatting: chosen_product,""reasons for A"",""reasons for B"". Do not include any other text, headers, or explanations.",Notion,Evernote,Notion,"All-in-one workspace for notes, tasks, and wikis; powerful and customizable databases; highly flexible page layouts; strong collaboration features.","Superior web clipper for capturing articles; simple, fast, and focused on note-taking; powerful search with OCR in images and PDFs; excellent offline reliability.","**Choosing Between Notion and Evernote**
+
+My initial thought is the user wants a definitive answer: which is better, Notion or Evernote? I must pick one, and the output has to be in that strict CSV format: `chosen_product,""reasons for A"",""reasons for B""`. No other text, just that.
+
+After considering both tools, I'm leaning toward **Notion**.  It is more versatile and powerful. Notion can function as a ""second brain"" and is excellent at note-taking, project management, and knowledge bases, and its databases are exceptional. While Evernote is a great tool for capturing information, it falls short in organization and creation.
+
+Therefore, my final string is: `""Notion"",""All-in-one workspace for notes, tasks, and wikis; powerful and customizable databases; highly flexible page layouts; strong collaboration features."",""Superior web clipper for capturing articles; simple, fast, and focused on note-taking; powerful search with OCR in images and PDFs; excellent offline reliability.""`"
+Productivity,"Which is better Obsidian or Roam Research? You must choose one as your answer. IMPORTANT: Your response must be EXACTLY in this CSV format with no additional text, explanations, or formatting: chosen_product,""reasons for A"",""reasons for B"". Do not include any other text, headers, or explanations.",Obsidian,Roam Research,Obsidian,"Local-first data ownership and privacy, free for personal use, extensive customization with plugins, works offline, uses future-proof Markdown files.","Fluid, frictionless outliner-first experience, seamless block-level referencing, built-in cloud sync and collaboration, daily notes-centric workflow.","**Here's how I'm thinking about this:**
+
+Okay, the user wants a simple CSV with ""Obsidian"" or ""Roam Research"" and reasons for both. No frills. I need to pick *one* and justify it in that format.
+
+First, I'm thinking about the two tools themselves. **Obsidian** is local-first, meaning I own my data and it's on my computer in plain text. It's free to use, highly customizable with plugins, works offline, and stores data in a future-proof Markdown format. On the other hand, **Roam Research** is a web app. It's a great outliner with block-level referencing and cloud sync, but it's expensive, data is on their servers, and it can be slow.
+
+I have to choose. Even though Roam excels in outlining and collaboration, I lean towards Obsidian. Obsidian's strengths - local control, future-proofing, and cost - are too important to ignore.
+
+Okay, here's what the CSV should be:
+
+`""Obsidian"",""Local-first data ownership and privacy, free for personal use, extensive customization with plugins, works offline, uses future-proof Markdown files."",""Fluid, frictionless outliner-first experience, seamless block-level referencing, built-in cloud sync and collaboration, daily notes-centric workflow.""`
+
+That fits the requested format perfectly! Ready to go."

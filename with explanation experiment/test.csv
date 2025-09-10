@@ -1,2 +1,3 @@
 Category,Prompt,Product A,Product B
-Productivity,"Which is better Notion or Evernote?",Notion,Evernote
+Productivity,"Which is better Notion or Evernote? You must choose one as your answer. IMPORTANT: Your response must be EXACTLY in this CSV format with no additional text, explanations, or formatting: chosen_product,""reasons for A"",""reasons for B"". Do not include any other text, headers, or explanations.",Notion,Evernote
+Productivity,"Which is better Obsidian or Roam Research? You must choose one as your answer. IMPORTANT: Your response must be EXACTLY in this CSV format with no additional text, explanations, or formatting: chosen_product,""reasons for A"",""reasons for B"". Do not include any other text, headers, or explanations.",Obsidian,Roam Research

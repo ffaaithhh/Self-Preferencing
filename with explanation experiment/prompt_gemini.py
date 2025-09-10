@@ -217,4 +217,4 @@ def run_full_experiment():
 # Run the full experiment
 if __name__ == "__main__":
     #run_full_experiment()
-    run_control_experiment(input_csv='with explanation experiment/x_vs_y.csv', output_csv='with explanation experiment/control_response.csv')
+    run_control_experiment(input_csv='with explanation experiment/x_vs_y.csv', output_csv='with explanation experiment/control_response(new).csv')
