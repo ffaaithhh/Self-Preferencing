@@ -30,6 +30,14 @@ control_df['Sentiment Label'] = control_df['Sentiment'].apply(
 print("\nSentiment Distribution:")
 print(control_df['Sentiment Label'].value_counts())
 
+def get_sentiment(text):
+    blob = TextBlob(str(text))
+    return pd.Series({'polarity': blob.sentiment.polarity, 'subjectivity': blob.sentiment.subjectivity})
+
+sentiments = control_df['Thinking'].dropna().apply(get_sentiment)
+print("Sentiment analysis summary:")
+print(sentiments.describe())
+
 # Save results to a new CSV
 control_df.to_csv('control_responses_with_sentiment.csv', index=False)
 
